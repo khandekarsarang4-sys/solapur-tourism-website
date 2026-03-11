@@ -31,3 +31,7 @@ setInterval(slider,2000);
 <button type="submit">Submit</button>
 
 </form>
+function submitForm(){
+alert("Thank you for contacting Solapur Tourism!");
+}
+
