@@ -2,15 +2,38 @@
 <html>
 <head>
 <title>Travel Guide</title>
+<link rel="stylesheet" href="style.css">
+<script src="enquiry.js"></script>
 </head>
 
 <body>
 
 <h1>Travel Guide</h1>
 
-<p>Solapur is connected by road, rail and air.</p>
+<h3>By Road</h3>
+<p>Pune – 250 km</p>
+<p>Mumbai – 400 km</p>
+<p>Hyderabad – 300 km</p>
 
-<p>Major cities nearby are Pune, Mumbai, Hyderabad and Bengaluru.</p>
+<h3>By Rail</h3>
+<p>Solapur Railway Station connects many major cities.</p>
+
+<h3>Local Transport</h3>
+<p>Auto rickshaws, taxis and buses are available.</p>
+
+<h2>Tourist Enquiry</h2>
+
+<form onsubmit="showMessage()">
+
+<input type="text" placeholder="Enter Name" required><br><br>
+
+<input type="email" placeholder="Enter Email" required><br><br>
+
+<textarea placeholder="Your Message"></textarea><br><br>
+
+<button type="submit">Submit</button>
+
+</form>
 
 </body>
 </html>
