@@ -18,3 +18,16 @@ i = 0;
 }
 
 setInterval(slider,2000);
+<h2>Tourist Enquiry</h2>
+
+<form onsubmit="submitForm()">
+
+<input type="text" placeholder="Enter Name" required><br><br>
+
+<input type="email" placeholder="Enter Email" required><br><br>
+
+<textarea placeholder="Your Message"></textarea><br><br>
+
+<button type="submit">Submit</button>
+
+</form>
